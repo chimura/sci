@@ -1,0 +1,63 @@
+name: sci
+description: "A reference management app for researchers."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod:
+  riverpod_annotation:
+
+  # Routing
+  go_router:
+
+  # Database
+  sqflite:
+  sqflite_common_ffi:
+
+  # Auth
+  firebase_core:
+  firebase_auth:
+  google_sign_in:
+
+  # Google Drive
+  googleapis:
+  http:
+
+  # PDF
+  pdfrx:
+
+  # Utilities
+  freezed_annotation:
+  json_annotation:
+  uuid:
+  path_provider:
+  path:
+  url_launcher:
+  share_plus:
+  file_picker:
+  intl:
+  connectivity_plus:
+  shared_preferences: ^2.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  build_runner:
+  freezed:
+  json_serializable:
+  riverpod_generator:
+  custom_lint:
+  riverpod_lint:
+
+flutter:
+  uses-material-design: true
